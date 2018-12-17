@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 35px;
+            background: gray
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            background-color: gray
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            background: gray
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: gray
+        }
+
+        .centered2 {
+
+            float: left;
+            width: 40.00%;
+            height: 20.00%;
+            padding: 5px;
+            background: orange
+        }
+
+        .button2 {
+            position: absolute;
+            float: center;
+            width: 20.00%;
+            padding: 15px;
+            background: orange
+        }
+
+        .button3 {
+            position: absolute;
+            float: center;
+            width: 25.00%;
+            padding: 18px;
+            background: white
+        }
+
+        .h1 {
+
+            float: left;
+            width: 20.33%;
+            padding: 3px;
+            <link href="https://fonts.googleapis.com/css?family=Aleo"rel="stylesheet">
+        }
+
+        . .h2 {
+            font-size: 12pt;
+            color: orange
+        }
+
+        .call {
+            float: left;
+            width: 20.00%;
+            padding: 50px;
+
+        }
+
+        .row2::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .call2 {
+            float: left;
+            width: 50.00%;
+            padding: 50px;
+
+        }
+
+        .row3::after {
+            content: "";
+            clear: both;
+            display: table;
+
+        }
+
+        call3 {
+            float: left;
+            width: 20.00%;
+            padding: 10px;
+            background: gray;
+
+        }
+
+        .row4::after {
+            content: "";
+            clear: both;
+            display: table;
+            color: gray;
+        }
+
+        .column2 {
+            float: left;
+            width: 33.33%;
+            padding: 35px;
+            background: gray
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- top 
+   ================================================== -->
+
+    <section class=top>
+        <div class="container">
+            <img src="images/pizza_header%20copy.jpg" alt="Snow" style="width:100%;">
+            <div class="top-left"></div>
+            <div class="top-right">
+                <button><a href="#">Sign In</a></button>
+                <button><a href="#">Sign Up Now</a></button>
+            </div>
+
+            <div class="centered"></div>
+        </div>
+    </section>
+    <!-- buttons   
+   ================================================== -->
+    <section>
+        <div>
+            <div class="row">
+                <div class="column">
+                    <button class="button2"><a href="https://www.pizzahut.com/index.php?menu=pizza#/menu/pizza"></a>deal</button>
+                    <button class="button2"><a href="https://mellowmushroom.com/menu/?gclid=EAIaIQobChMIzYqO9P-f3wIVw7rACh0ixwnZEAAYAyAAEgIli_D_BwE">menu</a></button>
+                </div>
+                <div class="column">
+                    <button class="button2"><a href="https://www.pizzahut.com/index.php?menu=pizza#/menu/pizza"></a>deal</button>
+                    <button class="button2"><a href="https://www.pizzahut.com/index.php?menu=pizza#/menu/pizza">Deals</a></button>
+                </div>
+                <div class="column">
+                    <button class="button2"><a href="https://www.pizzahut.com/index.php?menu=pizza#/menu/pizza"></a>deal</button>
+                    <button class="button2"><a href="https://www.pizzahut.com/index.php?menu=pizza#/menu/pizza">Dilvery</a></button>
+                </div>
+    </section>
+    <!-- menu  
+   ================================================== -->
+    <section>
+        <div>
+            <div class="row">
+                <div class="column">
+                    <img src="images/pizza%2011.jpg" alt="" style="width:100%">
+                    <h1>Family size one toping pizza carry out or dilivery $10</h1>
+                    <button class="centered2"><a href="https://www.dominos.com/en/pages/order/#!/locations/search/?type=Delivery">order here</a></button>
+                </div>
+                <div class="column">
+                    <img src="images/pizza22.jpg" alt="Forest" style="width:100%">
+                    <h1>one toping pizza with two sides for only</h1>
+                    <h2> $15 </h2>
+                    <button class="centered2"><a href="https://www.dominos.com/en/pages/order/#!/locations/search/?type=Delivery">order here</a></button>
+                </div>
+                <div class="column">
+                    <img src="images/pizza33%20copy.jpg" alt="Mountains" style="width:100%">
+                    <h1>tow small kids pan Pizzas for $10 Din in only </h1>
+                    <button class="centered2"><a href="https://www.dominos.com/en/pages/order/#!/locations/search/?type=Delivery">order here</a></button>
+                </div>
+            </div>
+    </section>
+    <!-- reservations 
+   ================================================== -->
+    <section>
+        <div>
+            <div class="row3">
+                <div class="call2">
+                    <p>
+                        <h2> please call a head or reserve a table we do not take walkins at this PIZA-A POO!
+                            please cliclk the button to make a reservation thank you> </h2>
+                        <button class="button3"><a href="https://www.amctheatres.com/reserved-seating">Reserve</a></button>
+
+                    </p>
+                </div>
+                <div class="row3">
+                    <div class="call2">
+                        <img src="images/resv.jpg" style=" width:100%">
+    </section>
+    <!-- about us 
+   ================================================== -->
+    <section>
+        <div>
+            <div class="row">
+                <div class="column2">
+
+                </div>
+                <div class="row">
+                    <div class="column2">
+                    </div>
+                    <div class="row">
+                        <div class="column2">
+                        </div>
+    </section>
+
+    <!-- call  
+   ================================================== -->
+
+    <section>
+        <div>
+            <div class="row2">
+                <div class="call">
+                    <p>
+                        <h1>MENU</h1>
+                        <h2> Pizza
+                            Wings
+                            Sides
+                            Pasta
+                            Desserts
+                            Drinks
+                            Dipping Sauces
+                            Deals</h2>
+                    </p>
+                </div>
+                <div class="row2">
+                    <div class="call">
+                        <h1>Hours</h1>
+                        <h2>Monday - firday open from 10am-10pm saturday-sunday 12pm to 8pm</h2>
+                    </div>
+                    <div class="row2">
+                        <div class="call">
+                            <h1>ABOUT US</h1>.<h2>Our Story
+                                Hut Life Blog
+                                Careers
+                                Catering
+                                International
+                                Become A Franchisee
+                                Corporate Contribution Guidelines
+                                Supplier Code
+                                Diversity
+                                School Lunch
+                                Book It!</h2>
+                        </div>
+                        <div class="row2">
+                            <div class="call">
+                                <h1>CUSTOMER SERVICE</h1>
+                                <h2> Contact Us
+                                    at 1-844-244-2552 for any isuess </h2>
+                            </div>
+                            <div class="row2">
+                                <div class="call">
+                                    <h1>MY ACCOUNT</h1>
+                                    <h2>Create Account
+                                        Sign In</h2>
+
+                                </div>
+                            </div>
+    </section>
+    <!-- why im failing   
+   ================================================== -->
+
+
+
+</body>
+
+</html>
